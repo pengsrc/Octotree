@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76EDD715224CB4E700BC5283 /* Octotree.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 76EDD714224CB4E700BC5283 /* Octotree.entitlements */; };
+		76EDD717224CB4E700BC5283 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EDD716224CB4E700BC5283 /* AppDelegate.swift */; };
+		76EDD71A224CB4E700BC5283 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76EDD718224CB4E700BC5283 /* Main.storyboard */; };
+		76EDD71C224CB4E700BC5283 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EDD71B224CB4E700BC5283 /* ViewController.swift */; };
+		76EDD71E224CB4E700BC5283 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76EDD71D224CB4E700BC5283 /* Assets.xcassets */; };
+		76EDD729224CB4E700BC5283 /* OctotreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EDD728224CB4E700BC5283 /* OctotreeTests.swift */; };
+		76EDD734224CB4E700BC5283 /* OctotreeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EDD733224CB4E700BC5283 /* OctotreeUITests.swift */; };
+		76EDD73B224CB4E700BC5283 /* Octotree Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 76EDD73A224CB4E700BC5283 /* Octotree Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		76EDD740224CB4E700BC5283 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76EDD73F224CB4E700BC5283 /* Cocoa.framework */; };
+		76EDD743224CB4E700BC5283 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EDD742224CB4E700BC5283 /* SafariExtensionHandler.swift */; };
+		76EDD745224CB4E700BC5283 /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EDD744224CB4E700BC5283 /* SafariExtensionViewController.swift */; };
+		76EDD748224CB4E700BC5283 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76EDD746224CB4E700BC5283 /* SafariExtensionViewController.xib */; };
+		76EDD766224CB54200BC5283 /* jquery.js in Resources */ = {isa = PBXBuildFile; fileRef = 76EDD75E224CB54200BC5283 /* jquery.js */; };
+		76EDD767224CB54200BC5283 /* jquery-ui.js in Resources */ = {isa = PBXBuildFile; fileRef = 76EDD75F224CB54200BC5283 /* jquery-ui.js */; };
+		76EDD768224CB54200BC5283 /* jstree.js in Resources */ = {isa = PBXBuildFile; fileRef = 76EDD760224CB54200BC5283 /* jstree.js */; };
+		76EDD769224CB54200BC5283 /* octotree.css in Resources */ = {isa = PBXBuildFile; fileRef = 76EDD761224CB54200BC5283 /* octotree.css */; };
+		76EDD76A224CB54200BC5283 /* keymaster.js in Resources */ = {isa = PBXBuildFile; fileRef = 76EDD762224CB54200BC5283 /* keymaster.js */; };
+		76EDD76B224CB54200BC5283 /* jstree.css in Resources */ = {isa = PBXBuildFile; fileRef = 76EDD763224CB54200BC5283 /* jstree.css */; };
+		76EDD76C224CB54200BC5283 /* octotree.js in Resources */ = {isa = PBXBuildFile; fileRef = 76EDD764224CB54200BC5283 /* octotree.js */; };
+		76EDD76D224CB54200BC5283 /* ondemand.js in Resources */ = {isa = PBXBuildFile; fileRef = 76EDD765224CB54200BC5283 /* ondemand.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76EDD725224CB4E700BC5283 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76EDD709224CB4E700BC5283 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76EDD710224CB4E700BC5283;
+			remoteInfo = Octotree;
+		};
+		76EDD730224CB4E700BC5283 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76EDD709224CB4E700BC5283 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76EDD710224CB4E700BC5283;
+			remoteInfo = Octotree;
+		};
+		76EDD73C224CB4E700BC5283 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76EDD709224CB4E700BC5283 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76EDD739224CB4E700BC5283;
+			remoteInfo = "Octotree Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		76EDD754224CB4E700BC5283 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				76EDD73B224CB4E700BC5283 /* Octotree Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		76EDD711224CB4E700BC5283 /* Octotree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Octotree.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76EDD714224CB4E700BC5283 /* Octotree.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Octotree.entitlements; sourceTree = "<group>"; };
+		76EDD716224CB4E700BC5283 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		76EDD719224CB4E700BC5283 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76EDD71B224CB4E700BC5283 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		76EDD71D224CB4E700BC5283 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76EDD71F224CB4E700BC5283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76EDD724224CB4E700BC5283 /* OctotreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OctotreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76EDD728224CB4E700BC5283 /* OctotreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OctotreeTests.swift; sourceTree = "<group>"; };
+		76EDD72A224CB4E700BC5283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76EDD72F224CB4E700BC5283 /* OctotreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OctotreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76EDD733224CB4E700BC5283 /* OctotreeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OctotreeUITests.swift; sourceTree = "<group>"; };
+		76EDD735224CB4E700BC5283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76EDD73A224CB4E700BC5283 /* Octotree Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Octotree Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76EDD73F224CB4E700BC5283 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		76EDD742224CB4E700BC5283 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
+		76EDD744224CB4E700BC5283 /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
+		76EDD747224CB4E700BC5283 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
+		76EDD749224CB4E700BC5283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76EDD74E224CB4E700BC5283 /* Octotree_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Octotree_Extension.entitlements; sourceTree = "<group>"; };
+		76EDD75E224CB54200BC5283 /* jquery.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.js; sourceTree = "<group>"; };
+		76EDD75F224CB54200BC5283 /* jquery-ui.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery-ui.js"; sourceTree = "<group>"; };
+		76EDD760224CB54200BC5283 /* jstree.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jstree.js; sourceTree = "<group>"; };
+		76EDD761224CB54200BC5283 /* octotree.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = octotree.css; sourceTree = "<group>"; };
+		76EDD762224CB54200BC5283 /* keymaster.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = keymaster.js; sourceTree = "<group>"; };
+		76EDD763224CB54200BC5283 /* jstree.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = jstree.css; sourceTree = "<group>"; };
+		76EDD764224CB54200BC5283 /* octotree.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = octotree.js; sourceTree = "<group>"; };
+		76EDD765224CB54200BC5283 /* ondemand.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ondemand.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76EDD70E224CB4E700BC5283 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76EDD721224CB4E700BC5283 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76EDD72C224CB4E700BC5283 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76EDD737224CB4E700BC5283 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76EDD740224CB4E700BC5283 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76EDD708224CB4E700BC5283 = {
+			isa = PBXGroup;
+			children = (
+				76EDD713224CB4E700BC5283 /* Octotree */,
+				76EDD727224CB4E700BC5283 /* OctotreeTests */,
+				76EDD732224CB4E700BC5283 /* OctotreeUITests */,
+				76EDD741224CB4E700BC5283 /* Octotree Extension */,
+				76EDD73E224CB4E700BC5283 /* Frameworks */,
+				76EDD712224CB4E700BC5283 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76EDD712224CB4E700BC5283 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76EDD711224CB4E700BC5283 /* Octotree.app */,
+				76EDD724224CB4E700BC5283 /* OctotreeTests.xctest */,
+				76EDD72F224CB4E700BC5283 /* OctotreeUITests.xctest */,
+				76EDD73A224CB4E700BC5283 /* Octotree Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76EDD713224CB4E700BC5283 /* Octotree */ = {
+			isa = PBXGroup;
+			children = (
+				76EDD714224CB4E700BC5283 /* Octotree.entitlements */,
+				76EDD716224CB4E700BC5283 /* AppDelegate.swift */,
+				76EDD718224CB4E700BC5283 /* Main.storyboard */,
+				76EDD71B224CB4E700BC5283 /* ViewController.swift */,
+				76EDD71D224CB4E700BC5283 /* Assets.xcassets */,
+				76EDD71F224CB4E700BC5283 /* Info.plist */,
+			);
+			path = Octotree;
+			sourceTree = "<group>";
+		};
+		76EDD727224CB4E700BC5283 /* OctotreeTests */ = {
+			isa = PBXGroup;
+			children = (
+				76EDD728224CB4E700BC5283 /* OctotreeTests.swift */,
+				76EDD72A224CB4E700BC5283 /* Info.plist */,
+			);
+			path = OctotreeTests;
+			sourceTree = "<group>";
+		};
+		76EDD732224CB4E700BC5283 /* OctotreeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				76EDD733224CB4E700BC5283 /* OctotreeUITests.swift */,
+				76EDD735224CB4E700BC5283 /* Info.plist */,
+			);
+			path = OctotreeUITests;
+			sourceTree = "<group>";
+		};
+		76EDD73E224CB4E700BC5283 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76EDD73F224CB4E700BC5283 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76EDD741224CB4E700BC5283 /* Octotree Extension */ = {
+			isa = PBXGroup;
+			children = (
+				76EDD742224CB4E700BC5283 /* SafariExtensionHandler.swift */,
+				76EDD744224CB4E700BC5283 /* SafariExtensionViewController.swift */,
+				76EDD746224CB4E700BC5283 /* SafariExtensionViewController.xib */,
+				76EDD749224CB4E700BC5283 /* Info.plist */,
+				76EDD74E224CB4E700BC5283 /* Octotree_Extension.entitlements */,
+				76EDD75F224CB54200BC5283 /* jquery-ui.js */,
+				76EDD75E224CB54200BC5283 /* jquery.js */,
+				76EDD763224CB54200BC5283 /* jstree.css */,
+				76EDD760224CB54200BC5283 /* jstree.js */,
+				76EDD762224CB54200BC5283 /* keymaster.js */,
+				76EDD761224CB54200BC5283 /* octotree.css */,
+				76EDD764224CB54200BC5283 /* octotree.js */,
+				76EDD765224CB54200BC5283 /* ondemand.js */,
+			);
+			path = "Octotree Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76EDD710224CB4E700BC5283 /* Octotree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76EDD755224CB4E700BC5283 /* Build configuration list for PBXNativeTarget "Octotree" */;
+			buildPhases = (
+				76EDD70D224CB4E700BC5283 /* Sources */,
+				76EDD70E224CB4E700BC5283 /* Frameworks */,
+				76EDD70F224CB4E700BC5283 /* Resources */,
+				76EDD754224CB4E700BC5283 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76EDD73D224CB4E700BC5283 /* PBXTargetDependency */,
+			);
+			name = Octotree;
+			productName = Octotree;
+			productReference = 76EDD711224CB4E700BC5283 /* Octotree.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76EDD723224CB4E700BC5283 /* OctotreeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76EDD758224CB4E700BC5283 /* Build configuration list for PBXNativeTarget "OctotreeTests" */;
+			buildPhases = (
+				76EDD720224CB4E700BC5283 /* Sources */,
+				76EDD721224CB4E700BC5283 /* Frameworks */,
+				76EDD722224CB4E700BC5283 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76EDD726224CB4E700BC5283 /* PBXTargetDependency */,
+			);
+			name = OctotreeTests;
+			productName = OctotreeTests;
+			productReference = 76EDD724224CB4E700BC5283 /* OctotreeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		76EDD72E224CB4E700BC5283 /* OctotreeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76EDD75B224CB4E700BC5283 /* Build configuration list for PBXNativeTarget "OctotreeUITests" */;
+			buildPhases = (
+				76EDD72B224CB4E700BC5283 /* Sources */,
+				76EDD72C224CB4E700BC5283 /* Frameworks */,
+				76EDD72D224CB4E700BC5283 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76EDD731224CB4E700BC5283 /* PBXTargetDependency */,
+			);
+			name = OctotreeUITests;
+			productName = OctotreeUITests;
+			productReference = 76EDD72F224CB4E700BC5283 /* OctotreeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		76EDD739224CB4E700BC5283 /* Octotree Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76EDD751224CB4E700BC5283 /* Build configuration list for PBXNativeTarget "Octotree Extension" */;
+			buildPhases = (
+				76EDD736224CB4E700BC5283 /* Sources */,
+				76EDD737224CB4E700BC5283 /* Frameworks */,
+				76EDD738224CB4E700BC5283 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Octotree Extension";
+			productName = "Octotree Extension";
+			productReference = 76EDD73A224CB4E700BC5283 /* Octotree Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76EDD709224CB4E700BC5283 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Jingwen Peng";
+				TargetAttributes = {
+					76EDD710224CB4E700BC5283 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					76EDD723224CB4E700BC5283 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 76EDD710224CB4E700BC5283;
+					};
+					76EDD72E224CB4E700BC5283 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 76EDD710224CB4E700BC5283;
+					};
+					76EDD739224CB4E700BC5283 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 76EDD70C224CB4E700BC5283 /* Build configuration list for PBXProject "Octotree" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76EDD708224CB4E700BC5283;
+			productRefGroup = 76EDD712224CB4E700BC5283 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76EDD710224CB4E700BC5283 /* Octotree */,
+				76EDD723224CB4E700BC5283 /* OctotreeTests */,
+				76EDD72E224CB4E700BC5283 /* OctotreeUITests */,
+				76EDD739224CB4E700BC5283 /* Octotree Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76EDD70F224CB4E700BC5283 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76EDD715224CB4E700BC5283 /* Octotree.entitlements in Resources */,
+				76EDD71E224CB4E700BC5283 /* Assets.xcassets in Resources */,
+				76EDD71A224CB4E700BC5283 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76EDD722224CB4E700BC5283 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76EDD72D224CB4E700BC5283 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76EDD738224CB4E700BC5283 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76EDD766224CB54200BC5283 /* jquery.js in Resources */,
+				76EDD76C224CB54200BC5283 /* octotree.js in Resources */,
+				76EDD767224CB54200BC5283 /* jquery-ui.js in Resources */,
+				76EDD76D224CB54200BC5283 /* ondemand.js in Resources */,
+				76EDD768224CB54200BC5283 /* jstree.js in Resources */,
+				76EDD76A224CB54200BC5283 /* keymaster.js in Resources */,
+				76EDD748224CB4E700BC5283 /* SafariExtensionViewController.xib in Resources */,
+				76EDD76B224CB54200BC5283 /* jstree.css in Resources */,
+				76EDD769224CB54200BC5283 /* octotree.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76EDD70D224CB4E700BC5283 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76EDD71C224CB4E700BC5283 /* ViewController.swift in Sources */,
+				76EDD717224CB4E700BC5283 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76EDD720224CB4E700BC5283 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76EDD729224CB4E700BC5283 /* OctotreeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76EDD72B224CB4E700BC5283 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76EDD734224CB4E700BC5283 /* OctotreeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76EDD736224CB4E700BC5283 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76EDD745224CB4E700BC5283 /* SafariExtensionViewController.swift in Sources */,
+				76EDD743224CB4E700BC5283 /* SafariExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76EDD726224CB4E700BC5283 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76EDD710224CB4E700BC5283 /* Octotree */;
+			targetProxy = 76EDD725224CB4E700BC5283 /* PBXContainerItemProxy */;
+		};
+		76EDD731224CB4E700BC5283 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76EDD710224CB4E700BC5283 /* Octotree */;
+			targetProxy = 76EDD730224CB4E700BC5283 /* PBXContainerItemProxy */;
+		};
+		76EDD73D224CB4E700BC5283 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76EDD739224CB4E700BC5283 /* Octotree Extension */;
+			targetProxy = 76EDD73C224CB4E700BC5283 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76EDD718224CB4E700BC5283 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76EDD719224CB4E700BC5283 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76EDD746224CB4E700BC5283 /* SafariExtensionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76EDD747224CB4E700BC5283 /* Base */,
+			);
+			name = SafariExtensionViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76EDD74F224CB4E700BC5283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		76EDD750224CB4E700BC5283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		76EDD752224CB4E700BC5283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Octotree Extension/Octotree_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Octotree Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.pjw.mac.Octotree-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		76EDD753224CB4E700BC5283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Octotree Extension/Octotree_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Octotree Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.pjw.mac.Octotree-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		76EDD756224CB4E700BC5283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Octotree/Octotree.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Octotree/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.pjw.mac.Octotree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		76EDD757224CB4E700BC5283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Octotree/Octotree.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Octotree/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.pjw.mac.Octotree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		76EDD759224CB4E700BC5283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OctotreeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.pjw.mac.OctotreeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Octotree.app/Contents/MacOS/Octotree";
+			};
+			name = Debug;
+		};
+		76EDD75A224CB4E700BC5283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OctotreeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.pjw.mac.OctotreeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Octotree.app/Contents/MacOS/Octotree";
+			};
+			name = Release;
+		};
+		76EDD75C224CB4E700BC5283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OctotreeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.pjw.mac.OctotreeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Octotree;
+			};
+			name = Debug;
+		};
+		76EDD75D224CB4E700BC5283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OctotreeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.pjw.mac.OctotreeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Octotree;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76EDD70C224CB4E700BC5283 /* Build configuration list for PBXProject "Octotree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76EDD74F224CB4E700BC5283 /* Debug */,
+				76EDD750224CB4E700BC5283 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76EDD751224CB4E700BC5283 /* Build configuration list for PBXNativeTarget "Octotree Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76EDD752224CB4E700BC5283 /* Debug */,
+				76EDD753224CB4E700BC5283 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76EDD755224CB4E700BC5283 /* Build configuration list for PBXNativeTarget "Octotree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76EDD756224CB4E700BC5283 /* Debug */,
+				76EDD757224CB4E700BC5283 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76EDD758224CB4E700BC5283 /* Build configuration list for PBXNativeTarget "OctotreeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76EDD759224CB4E700BC5283 /* Debug */,
+				76EDD75A224CB4E700BC5283 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76EDD75B224CB4E700BC5283 /* Build configuration list for PBXNativeTarget "OctotreeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76EDD75C224CB4E700BC5283 /* Debug */,
+				76EDD75D224CB4E700BC5283 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76EDD709224CB4E700BC5283 /* Project object */;
+}
